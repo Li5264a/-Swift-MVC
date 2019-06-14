@@ -13,6 +13,8 @@ class customCell: UITableViewCell {
     
     @IBOutlet weak var customLabel: UILabel!
     
+    @IBOutlet weak var checkLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
